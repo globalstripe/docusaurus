@@ -75,9 +75,9 @@ const config: Config = {
       respectPrefersColorScheme: true,
     },
     navbar: {
-      title: 'My Site',
+      title: 'Clearshore',
       logo: {
-        alt: 'My Site Logo',
+        alt: 'Clearshore Logo',
         src: 'img/logo.svg',
       },
       items: [
@@ -86,6 +86,12 @@ const config: Config = {
           sidebarId: 'tutorialSidebar',
           position: 'left',
           label: 'Tutorial',
+        },
+        {
+          type: 'docSidebar',
+          sidebarId: 'tutorialSidebar',
+          position: 'left',
+          label: 'API',
         },
         {to: '/blog', label: 'Blog', position: 'left'},
         {
