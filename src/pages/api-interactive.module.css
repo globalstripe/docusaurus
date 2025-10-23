@@ -1,0 +1,174 @@
+.container {
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 2rem;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin: 0 0 1rem 0;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.description {
+  font-size: 1.2rem;
+  margin: 0;
+  opacity: 0.9;
+  font-weight: 300;
+}
+
+.content {
+  position: relative;
+  min-height: 80vh;
+}
+
+.iframe {
+  width: 100%;
+  height: 80vh;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+.redocContainer {
+  width: 100%;
+  min-height: 80vh;
+  background: var(--ifm-background-color);
+}
+
+/* Ensure Redoc inherits Docusaurus theme variables */
+.redocContainer :global(.redoc-wrap) {
+  font-family: var(--ifm-font-family-base) !important;
+  background: var(--ifm-background-color) !important;
+  color: var(--ifm-color-content) !important;
+}
+
+.redocContainer :global(.redoc-wrap .menu-content) {
+  background: var(--ifm-background-color) !important;
+  border-right: 1px solid var(--ifm-color-emphasis-200) !important;
+}
+
+.redocContainer :global(.redoc-wrap .api-content) {
+  background: var(--ifm-background-color) !important;
+  color: var(--ifm-color-content) !important;
+}
+
+.redocContainer :global(.redoc-wrap h1),
+.redocContainer :global(.redoc-wrap h2),
+.redocContainer :global(.redoc-wrap h3),
+.redocContainer :global(.redoc-wrap h4),
+.redocContainer :global(.redoc-wrap h5),
+.redocContainer :global(.redoc-wrap h6) {
+  color: var(--ifm-color-content) !important;
+}
+
+.redocContainer :global(.redoc-wrap .operation-tag-content) {
+  background: var(--ifm-background-color) !important;
+  border: 1px solid var(--ifm-color-emphasis-200) !important;
+}
+
+.redocContainer :global(.redoc-wrap .btn) {
+  background: var(--ifm-color-primary) !important;
+  border-color: var(--ifm-color-primary) !important;
+  color: white !important;
+}
+
+.redocContainer :global(.redoc-wrap .btn:hover) {
+  background: var(--ifm-color-primary-dark) !important;
+  border-color: var(--ifm-color-primary-dark) !important;
+}
+
+.redocContainer :global(.redoc-wrap .http-verb) {
+  background: var(--ifm-color-primary) !important;
+  color: white !important;
+}
+
+.redocContainer :global(.redoc-wrap .http-verb.get) {
+  background: #61affe !important;
+}
+
+.redocContainer :global(.redoc-wrap .http-verb.post) {
+  background: #49cc90 !important;
+}
+
+.redocContainer :global(.redoc-wrap .http-verb.put) {
+  background: #fca130 !important;
+}
+
+.redocContainer :global(.redoc-wrap .http-verb.delete) {
+  background: #f93e3e !important;
+}
+
+.redocContainer :global(.redoc-wrap .code) {
+  background: var(--ifm-code-background) !important;
+  color: var(--ifm-code-color) !important;
+  border: 1px solid var(--ifm-color-emphasis-200) !important;
+}
+
+.redocContainer :global(.redoc-wrap pre) {
+  background: var(--ifm-code-background) !important;
+  color: var(--ifm-code-color) !important;
+  border: 1px solid var(--ifm-color-emphasis-200) !important;
+}
+
+.redocContainer :global(.redoc-wrap .redoc-json) {
+  background: var(--ifm-code-background) !important;
+  color: var(--ifm-code-color) !important;
+}
+
+.redocContainer :global(.redoc-wrap .redoc-json pre) {
+  background: var(--ifm-code-background) !important;
+  color: var(--ifm-code-color) !important;
+}
+
+/* Dark mode support */
+[data-theme='dark'] .redocContainer :global(.redoc-wrap) {
+  background: var(--ifm-background-color) !important;
+  color: var(--ifm-color-content) !important;
+}
+
+[data-theme='dark'] .redocContainer :global(.redoc-wrap .menu-content) {
+  background: var(--ifm-background-color) !important;
+  border-right-color: var(--ifm-color-emphasis-300) !important;
+}
+
+[data-theme='dark'] .redocContainer :global(.redoc-wrap .api-content) {
+  background: var(--ifm-background-color) !important;
+  color: var(--ifm-color-content) !important;
+}
+
+[data-theme='dark'] .redocContainer :global(.redoc-wrap .operation-tag-content) {
+  background: var(--ifm-background-color) !important;
+  border-color: var(--ifm-color-emphasis-300) !important;
+}
+
+[data-theme='dark'] .redocContainer :global(.redoc-wrap .code) {
+  background: var(--ifm-code-background) !important;
+  color: var(--ifm-code-color) !important;
+  border-color: var(--ifm-color-emphasis-300) !important;
+}
+
+[data-theme='dark'] .redocContainer :global(.redoc-wrap pre) {
+  background: var(--ifm-code-background) !important;
+  color: var(--ifm-code-color) !important;
+  border-color: var(--ifm-color-emphasis-300) !important;
+}
+
+[data-theme='dark'] .redocContainer :global(.redoc-wrap .redoc-json) {
+  background: var(--ifm-code-background) !important;
+  color: var(--ifm-code-color) !important;
+}
+
+[data-theme='dark'] .redocContainer :global(.redoc-wrap .redoc-json pre) {
+  background: var(--ifm-code-background) !important;
+  color: var(--ifm-code-color) !important;
+}

@@ -68,6 +68,8 @@ const config: Config = {
     ],
   ],
 
+  plugins: [],
+
   themeConfig: {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
@@ -89,9 +91,14 @@ const config: Config = {
         },
         {
           type: 'docSidebar',
-          sidebarId: 'tutorialSidebar',
+          sidebarId: 'apiSidebar',
           position: 'left',
           label: 'API',
+        },
+        {
+          to: '/api-interactive',
+          label: 'Interactive API',
+          position: 'left',
         },
         {to: '/blog', label: 'Blog', position: 'left'},
         {

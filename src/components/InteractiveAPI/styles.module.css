@@ -1,0 +1,79 @@
+.container {
+  margin: 2rem 0;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+.header {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 2rem;
+  text-align: center;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 0 0 1rem 0;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.description {
+  font-size: 1.1rem;
+  margin: 0;
+  opacity: 0.9;
+  font-weight: 300;
+}
+
+.iframeContainer {
+  position: relative;
+  background: white;
+  border: 1px solid #e1e5e9;
+}
+
+.iframe {
+  display: block;
+  border: none;
+  border-radius: 0 0 8px 8px;
+}
+
+.footer {
+  background: #f8f9fa;
+  padding: 1rem 2rem;
+  border-top: 1px solid #e1e5e9;
+  text-align: center;
+}
+
+.note {
+  margin: 0;
+  color: #6c757d;
+  font-size: 0.9rem;
+}
+
+.note strong {
+  color: #495057;
+}
+
+/* Dark mode support */
+[data-theme='dark'] .container {
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.3), 0 2px 4px -1px rgba(0, 0, 0, 0.2);
+}
+
+[data-theme='dark'] .iframeContainer {
+  background: #1a1a1a;
+  border-color: #333;
+}
+
+[data-theme='dark'] .footer {
+  background: #2d2d2d;
+  border-color: #333;
+}
+
+[data-theme='dark'] .note {
+  color: #adb5bd;
+}
+
+[data-theme='dark'] .note strong {
+  color: #dee2e6;
+}
