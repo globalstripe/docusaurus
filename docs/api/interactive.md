@@ -21,14 +21,14 @@ The interactive documentation below allows you to:
 
 ## Interactive Documentation
 
-The interactive API documentation is available at: **[Interactive API Documentation](/api-interactive.html)**
+The interactive API documentation is available at: **[Interactive API Documentation](/api-interactive)**
 
 <iframe 
   src="/api-interactive.html" 
   width="100%" 
   height="800px" 
   frameborder="0"
-  style="border: 1px solid #e1e5e9; border-radius: 8px;"
+  style={{border: "1px solid #e1e5e9", borderRadius: "8px"}}
   title="Interactive API Documentation">
 </iframe>
 
@@ -63,21 +63,21 @@ The interactive API documentation is available at: **[Interactive API Documentat
 ### User Management
 - **GET /users** - List users with pagination and filtering
 - **POST /users** - Create new user accounts
-- **GET /users/{id}** - Retrieve specific user details
-- **PUT /users/{id}** - Update user information
-- **DELETE /users/{id}** - Delete user accounts
+- **GET /users/\{id\}** - Retrieve specific user details
+- **PUT /users/\{id\}** - Update user information
+- **DELETE /users/\{id\}** - Delete user accounts
 
 ### Data Processing
 - **POST /data/upload** - Upload data files for processing
-- **POST /data/{id}/process** - Initiate data processing
-- **GET /data/{id}/status** - Check processing status
-- **GET /data/{id}/download** - Download processed results
+- **POST /data/\{id\}/process** - Initiate data processing
+- **GET /data/\{id\}/status** - Check processing status
+- **GET /data/\{id\}/download** - Download processed results
 
 ### Webhooks
 - **GET /webhooks** - List webhook endpoints
 - **POST /webhooks** - Create new webhook endpoints
-- **PUT /webhooks/{id}** - Update webhook configuration
-- **DELETE /webhooks/{id}** - Remove webhook endpoints
+- **PUT /webhooks/\{id\}** - Update webhook configuration
+- **DELETE /webhooks/\{id\}** - Remove webhook endpoints
 
 ## Rate Limits
 
@@ -111,7 +111,7 @@ All endpoints return consistent error responses:
 
 ## Support
 
-Need help with the API? Check out our [API Reference](/api/reference) for detailed documentation, or contact our support team at support@clearshore.com.
+Need help with the API? Check out our [API Reference](/docs/api/reference) for detailed documentation, or contact our support team at support@clearshore.com.
 
 ---
 

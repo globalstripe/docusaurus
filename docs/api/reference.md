@@ -6,7 +6,7 @@ This page provides a comprehensive reference for all Clearshore API endpoints, i
 
 Our API is fully documented using the OpenAPI 3.0 specification. You can:
 
-- **Download the OpenAPI spec**: [openapi.yaml](/api/openapi.yaml)
+- **Download the OpenAPI spec**: [openapi.yaml](/api-openapi.yaml)
 - **Import into Postman**: Use the OpenAPI URL in Postman
 - **Generate SDKs**: Use tools like OpenAPI Generator to create client libraries
 
@@ -140,7 +140,7 @@ GET /users?sort=created_at:desc,name:asc
 
 ## Webhooks
 
-Webhooks allow you to receive real-time notifications when events occur. See the [Webhooks documentation](/api/webhooks) for details.
+Webhooks allow you to receive real-time notifications when events occur. See the [Webhooks documentation](/docs/api/webhooks) for details.
 
 ### Event Types
 

@@ -28,15 +28,15 @@ API requests are rate limited to 1000 requests per hour per API key. Rate limit 
 ## Quick Start
 
 1. **Get an API Key**: Sign up for a Clearshore account and generate an API key
-2. **Make your first request**: Try our [Health Check endpoint](/api/health)
+2. **Make your first request**: Try our [Health Check endpoint](/docs/api/health)
 3. **Explore the endpoints**: Browse our comprehensive API reference below
 
 ## API Reference
 
-- [Health Check](/api/health) - Check API status
-- [User Management](/api/users) - User operations
-- [Data Processing](/api/data) - Data processing endpoints
-- [Webhooks](/api/webhooks) - Webhook management
+- [Health Check](/docs/api/health) - Check API status
+- [User Management](/docs/api/users) - User operations
+- [Data Processing](/docs/api/data) - Data processing endpoints
+- [Webhooks](/docs/api/webhooks) - Webhook management
 
 ## SDKs and Tools
 
@@ -48,4 +48,4 @@ We provide official SDKs for popular programming languages:
 
 ## Support
 
-Need help? Check out our [FAQ](/docs/faq) or contact our support team at support@clearshore.com.
+Need help? Contact our support team at support@clearshore.com.
